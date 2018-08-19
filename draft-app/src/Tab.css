@@ -1,0 +1,36 @@
+.Tab {
+	font-size: 20px;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+.Tab-active {
+	font-width: 'bold';
+	background-color: #4286f4;
+}
+
+.Tab-btn {
+	background-color: inherit;
+	height: 50px;
+	width: 25%;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.Tab-btn:disabled {
+	cursor: auto;
+}
+
+.Tab-btn:hover:enabled {
+	background-color: #9bc1ff;
+}
+
+.Tab-btn:active {
+	background-color: #4286f4;
+}
+
+:focus {
+	outline: none !important;
+}
